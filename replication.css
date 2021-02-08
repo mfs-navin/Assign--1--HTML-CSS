@@ -1,0 +1,114 @@
+* {
+		    margin: 0;
+		    padding: 0;
+		} 
+		
+		.flex-container {
+			display: flex;
+			background-color: #E0E0E0;
+			justify-content: center;
+
+		}
+
+		.flex-container > div {
+			margin: 15px;
+			padding: 20px;
+			width: 300px;
+		}
+
+		.person > div {
+			margin-top: -10px;
+		}
+
+		.person > div > img {
+			height: 85px; 
+			width: 85px; 
+			border-radius: 60%; 
+			margin-left: 100px; 
+			margin-top: -10px;
+		}
+
+		.person_quote > div {
+			background-color: white;
+		}
+
+		.icon {
+			text-align: center;
+			height: 220px;
+		}
+
+		.icon > div {
+			background-color: white;
+		}
+
+		.icon > div > i {
+			font-size:36px;
+		}
+
+		.top {
+			height: 190px;
+			background: url('https://media.istockphoto.com/vectors/brown-polygonal-background-abstract-texture-for-advertising-business-vector-id919548712?k=6&m=919548712&s=612x612&w=0&h=VA_SdD3Rtn_QLDJsuHD9H-RaCAGW-IMsURw1Bs6O4KI='); 
+			color: white; 
+			justify-content: left;
+		}
+
+		#top_img {
+			width: 270px;
+			height: 150px;
+			margin: -20px;
+		}
+
+		.read {
+			background-color: #3195B7;
+			color:white; 
+			padding: 2px;
+			transition: 0.5s;
+		}
+
+		.read:hover {
+			background-color: green;
+		}
+
+		.read:focus {
+			background-color: grey;
+		}
+
+		.download {
+			color: white; 
+			padding: 2px;
+			background-color: orange;
+			transition: 0.5s;
+		}
+
+		.download:hover {
+			background-color: green;
+		}
+
+		.download:focus {
+			background-color: grey;
+		}
+
+		.box {
+		  width: 180px;
+		  height: 50px;
+		  background-color: black;
+		  color: black;
+		  padding: 20px;
+		  position: relative;
+		  margin: 40px;
+		}
+
+		.box.arrow-top {
+		  margin-top: 40px;
+		}
+		 
+		.box.arrow-top:after {
+		  content: " ";
+		  position: absolute;
+		  right: 160px;
+		  top: -15px;
+		  border-top: none;
+		  border-right: 15px solid transparent;
+		  border-left: 15px solid transparent;
+		  border-bottom: 15px solid white;
+		}
